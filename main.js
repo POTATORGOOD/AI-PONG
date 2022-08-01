@@ -25,7 +25,7 @@ var ball = {
 }
 
 function setup(){
-    var canvas1 = createCanvas(1240, 336);
+    var canvas1 = createCanvas(700, 600);
     canvas1.parent('canvas');
 
     video = createCapture(VIDEO);
