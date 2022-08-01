@@ -30,7 +30,6 @@ function setup(){
 
     video = createCapture(VIDEO);
     video.size(700, 600);
-    video.hide();
     video.parent('game_console');
 
     posenet = ml5.poseNet(video, modelLoaded);
